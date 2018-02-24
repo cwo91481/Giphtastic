@@ -15,11 +15,11 @@ $(document).ready(function () {
 
                 for (var i = 0; i < results.length; i++) {
 
-                    var baseballDiv = $('<div/>');
-                    var p = $('<p/>');
+                    var baseballDiv = $('<div>');
+                    var p = $('<p>');
                     p.html(results[i].rating);
 
-                    var ballImage = $('<img/>');
+                    var ballImage = $('<img>');
                     ballImage.addClass('anImg')
 
                     ballImage.attr('src', results[i].images.fixed_height.url);
